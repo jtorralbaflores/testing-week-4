@@ -12,4 +12,4 @@ aggregation <- video_view %>%
   group_by(creator_id) %>%
   summarise(sum_answer = sum(impressions_n))
 
-write_csv(aggregation, "output/creator_week4.csv")
+write_csv(aggregation, "output/creator_top10_week4.csv")
