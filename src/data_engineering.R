@@ -18,10 +18,10 @@ video_features <- video_view %>%
   arrange(watch_rate_rank)
 
 
-write_csv(video_features, "../temp/video_features")
+write_csv(video_features, "temp/video_features.csv")
 
 # Exercise 2
-
+# Some answer
 
 
 # Exercise 3
@@ -29,7 +29,6 @@ write_csv(video_features, "../temp/video_features")
 
 
 # Exercise 4
-
 
 
 # Exercise 5
